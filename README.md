@@ -12,7 +12,6 @@
 </script>
 
 
-
 <font color="red">Last Updated: July 27, 2023</font>
 
 ![Ken Saito](IMG_2677.JPG)
