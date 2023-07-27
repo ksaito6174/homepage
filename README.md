@@ -71,7 +71,7 @@
 
 ![Ken Saito](IMG_2677.JPG)
 
-[sssss](20230727.md)
+[sssssttttt](20230727.md)
 
 ## Profile
 - Name: Ken Saito
