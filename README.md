@@ -9,6 +9,9 @@
  });
 </script>
 
+
+<img src="/minimal/assets/img/logo.png" alt="Logo" />
+
 <div id="pdfjs_view"></div>
 <style>
     #pdfjs_view canvas{
