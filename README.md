@@ -24,7 +24,7 @@
  
 <script>
     //ここにPDFのURL
-    var url = "XXXXXXXXXXXXX.pdf";
+    var url = "20230510_cv_ksaito.pdf";
  
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
  
