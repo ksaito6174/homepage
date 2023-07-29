@@ -72,8 +72,6 @@
 
 ![Ken Saito](IMG_2677.JPG)
 
-[sssssttttt](20230727.md)
-
 ## Profile
 - Name: Ken Saito
 - Birthday: May 3rd, 1991
