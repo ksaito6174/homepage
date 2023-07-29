@@ -68,9 +68,7 @@
     );
 </script>
 
-<font color="red">Last Updated: July 27, 2023</font>
-
-![Ken Saito](IMG_2677.JPG)
+<font color="red">Last Updated: July 30, 2023</font>
 
 ## Profile
 - Name: Ken Saito
