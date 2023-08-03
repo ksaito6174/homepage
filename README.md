@@ -20,7 +20,7 @@
   const pdfjsLib = window['pdfjs-dist/build/pdf'];
 
   // PDFを読み込む
-  const url = 'path/to/your/file.pdf';
+  const url = '20230510_cv_ksaito.pdf';
   const viewerContainer = document.getElementById('pdf-viewer');
 
   pdfjsLib.getDocument(url).promise.then(pdfDoc => {
