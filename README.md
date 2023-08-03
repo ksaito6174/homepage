@@ -28,6 +28,7 @@
 ### Birthday
 &emsp; May 3rd, 1991
 <br>
+<br>
 
 ### Birthplace
 &emsp; [Tsuruoka](https://www.city.tsuruoka.lg.jp/), Yamagata, Japan
