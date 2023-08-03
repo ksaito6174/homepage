@@ -17,7 +17,7 @@
     }
 </style>
  
-# Profile
+# PROFILE
 ## Name
 &emsp; Ken Saito
 <br>
