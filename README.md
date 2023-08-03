@@ -9,39 +9,66 @@
  });
 </script>
 
-
-<!-- CDNから読み込む場合 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-
 <div id="pdf-viewer"></div>
+<button onclick="goPreviousPage()">Previous</button>
+<button onclick="goNextPage()">Next</button>
+
 
 <script>
-  // PDF.jsの初期化
-  const pdfjsLib = window['pdfjs-dist/build/pdf'];
+  // pdf.jsの読み込み
+  const pdfjsLib = require('pdfjs-dist');
 
-  // PDFを読み込む
+  // 表示するPDFファイルのURL
   const url = '20230510_cv_ksaito.pdf';
-  const viewerContainer = document.getElementById('pdf-viewer');
 
-  pdfjsLib.getDocument(url).promise.then(pdfDoc => {
-    // PDFを描画するためのキャンバスを作成
-    const canvas = document.createElement('canvas');
-    viewerContainer.appendChild(canvas);
+  // ページ番号
+  let currentPageNumber = 1;
 
-    // 第1ページを取得
-    pdfDoc.getPage(1).then(page => {
-      const viewport = page.getViewport({ scale: 1.0 });
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
+  // PDFを表示するための関数
+  function renderPDF() {
+    const container = document.getElementById('pdf-viewer');
 
-      // PDFの描画
-      const renderContext = {
-        canvasContext: canvas.getContext('2d'),
-        viewport: viewport,
-      };
-      page.render(renderContext);
+    pdfjsLib.getDocument(url).promise.then(pdfDoc => {
+      // ページを取得
+      pdfDoc.getPage(currentPageNumber).then(page => {
+        const viewport = page.getViewport({ scale: 1.5 });
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+        container.appendChild(canvas);
+
+        // ページの描画
+        const renderContext = {
+          canvasContext: context,
+          viewport: viewport,
+        };
+        page.render(renderContext);
+      });
     });
-  });
+  }
+
+  // 前のページに移動するための関数
+  function goPreviousPage() {
+    if (currentPageNumber > 1) {
+      currentPageNumber--;
+      renderPDF();
+    }
+  }
+
+  // 次のページに移動するための関数
+  function goNextPage() {
+    pdfjsLib.getDocument(url).promise.then(pdfDoc => {
+      if (currentPageNumber < pdfDoc.numPages) {
+        currentPageNumber++;
+        renderPDF();
+      }
+    });
+  }
+
+  // 初期表示
+  renderPDF();
 </script>
 
  
