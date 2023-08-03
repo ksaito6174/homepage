@@ -9,10 +9,7 @@
  });
 </script>
 
-<div id="pdf-viewer"></div>
-<button onclick="goPreviousPage()">Previous</button>
-<button onclick="goNextPage()">Next</button>
-
+<div id="pdf-viewer">
 
 <script>
   // pdf.jsの読み込み
@@ -70,6 +67,13 @@
   // 初期表示
   renderPDF();
 </script>
+
+ 
+</div>
+<button onclick="goPreviousPage()">Previous</button>
+<button onclick="goNextPage()">Next</button>
+
+
 
  
 # PROFILE
