@@ -17,8 +17,6 @@
     }
 </style>
  
-<font color="red">Last Updated: July 30, 2023</font>
-
 ## Profile
 ### Name
 &emsp; Ken Saito
