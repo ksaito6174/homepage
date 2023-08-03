@@ -17,18 +17,18 @@
     }
 </style>
  
-## Profile
-### Name
+# Profile
+## Name
 &emsp; Ken Saito
 <br>
 <br>
 
-### Birthday
+## Birthday
 &emsp; May 3rd, 1991
 <br>
 <br>
 
-### Birthplace
+## Birthplace
 &emsp; [Tsuruoka](https://www.city.tsuruoka.lg.jp/), Yamagata, Japan
 <br>
 <br>
@@ -46,6 +46,7 @@
   * April, 2007 - March, 2010 (Graduated)
 <br />
 <br />
+
 
 
 ## Publications
