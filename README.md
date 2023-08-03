@@ -13,6 +13,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
 
 <div id="pdf-viewer"></div>
+<button onclick="goPreviousPage()">Previous</button>
+<button onclick="goNextPage()">Next</button>
 
 <script>
   // PDF.jsの初期化
