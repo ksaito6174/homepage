@@ -1,5 +1,5 @@
 // PDFのURL
-const pdfUrl = 'path/to/your/multi-page/file.pdf';
+const pdfUrl = '20230510_cv_ksaito.pdf';
 
 // PDF.jsの初期化
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
