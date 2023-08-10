@@ -64,6 +64,9 @@
 <br>
 
 
+[sss](20230510_cv_ksaito.pdf)
+
+
 ## Educational Background
 - Mathematical System Analysis I, System Information Sciences, Division of Mathematics, Graduate School of Information Sciences, Tohoku University
   * April, 2016 - March, 2023
