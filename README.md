@@ -81,6 +81,14 @@
 <br />
 
 
+<iframe
+      class="slide"
+      src="projectSlidebyMD20200626.pdf"
+      width="50%"
+      height="500px"
+    ></iframe>
+
+
 [jjjjj](https://github.com/ksaito6174/homepage/blob/main/homepage.md)
 
 
