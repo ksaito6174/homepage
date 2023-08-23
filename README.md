@@ -84,7 +84,7 @@
 <iframe
       class="slide"
       src="20230510_cv_ksaito.pdf"
-      width="50%"
+      width="100%"
       height="500px"
     ></iframe>
 
