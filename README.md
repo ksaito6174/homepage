@@ -27,9 +27,6 @@
 <br>
 
 
-[sss](20230510_cv_ksaito.pdf)
-
-
 ## Educational Background
 - Mathematical System Analysis I, System Information Sciences, Division of Mathematics, Graduate School of Information Sciences, Tohoku University
   * April, 2016 - March, 2023
@@ -42,17 +39,6 @@
   * April, 2007 - March, 2010 (Graduated)
 <br />
 <br />
-
-
-<iframe
-      class="slide"
-      src="20230510_cv_ksaito.pdf"
-      width="100%"
-      height="500px"
-    ></iframe>
-
-
-[jjjjj](https://github.com/ksaito6174/homepage/blob/main/homepage.md)
 
 
 ## Publications
@@ -95,24 +81,4 @@ March 29, 2018
 - [Twitter](https://twitter.com/ksaito495)
 - xxx
 - xxx
-- yyyyyyy
-
-
-[higwpohphbwegfs](homepage.md)
-
-アドバイスをしたい人
-僕がポルシェに乗っていた20代の頃、こんなふうに話しかけてくる人がいました。
-
-「ポルシェはさぁ、クラッチが弱いから気をつけたほうがいいよ」
-
-僕が、「え〜とですね……（汗）、僕の968はティプトロニック*なので、クラッチはないんですけど……」と、いくら説明してもその人は、
-
-「でもさぁ、クラッチに気をつけたほうがいいよぉ……」というばかりで、ぜんぜん会話になりません。
-
-（初めてのポルシェだったので）少し不安になり「ちなみにポルシェの何に乗ってる（乗ってた）のですか？911？ 928?」と質問しても、どのモデルかもわからないそう……。もちろん、ポルシェを運転したこともなく、整備士だとか、車関連の仕事でもないらしい。
-
-そのときに初めて、「自分が知らないことを、他人にアドバイスする人っているんだなぁ……」と、ショックを受けたことを、今でもよく覚えています。
-
-*ティプトロニック・トランスミッションとは、BOSCH社とZF社が開発したトルクコンバータを少し進化させたトランスミッションのこと。車にかかるGを検知して、アクセルや加減速を制御するそう。ちなみに、AT車の進化版なので、クラッチはありません。
-創作は、少し先の未来を見ること
-話をマジックに戻しますと、マジックでありがちなのは、トリックそのものを共通言語にして、コミュニケーションをとってしまいがちなこと。
+- yyyy
