@@ -20,7 +20,7 @@
 
 ## Links
 ### SNS
- - [Facebook](https://www.facebook.com/profile.php/?id=100004925310388)
+#### [Facebook](https://www.facebook.com/profile.php/?id=100004925310388)
 
 #### [X](https://twitter.com/ksaito495)
 
@@ -48,7 +48,7 @@
 ---
 
 ### Study Abroad
-- Mi
+- Michigan
 ![Image from Gyazo](https://i.gyazo.com/e2226fc0e56cd355c9eafc823ec3a29f.jpg)
 
 ---
