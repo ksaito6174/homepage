@@ -56,7 +56,7 @@
 ### Publications
 - Construction for both self-dual codes and LCD codes, K. Ishizuka and K. Saito, Submitted to Advances in Mathematics of Communications, (2021)
 
-- On the existence of quaternary Hermitian LCD codes with Hermitian dual distance 1, K. Ishizuka and K. Saito, ${\it Discrete Math.}$ ${\bf 345}$, (2022), 112702 (Published: February, 2022)
+- On the existence of quaternary Hermitian LCD codes with Hermitian dual distance 1, K. Ishizuka and K. Saito, *Discrete Math.* **345**, (2022), 112702 (Published: February, 2022)
 
 - On the minimum weights of binary LCD codes and ternary LCD codes, M. Araya, M. Harada and K. Saito, *Finite Fields and Their Applications* **76**, (2021), 101925 (Published: September, 2021)
 
