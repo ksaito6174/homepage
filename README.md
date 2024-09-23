@@ -9,7 +9,7 @@
  });
 </script>
 
-<p class="pdf"><a href="/js/pdfjs/web/viewer.html?file=●●●.pdf" target="_blank" rel="noopener">クリックするとPDFが立ち上がります</a></p>
+<p class="pdf"><a href="/js/pdfjs/web/viewer.html?file=20230510_cv_ksaito.pdf" target="_blank" rel="noopener">クリックするとPDFが立ち上がります</a></p>
 
  
 ## Profile
