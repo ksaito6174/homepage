@@ -9,6 +9,8 @@
  });
 </script>
 
+<p class="pdf"><a href="/js/pdfjs/web/viewer.html?file=●●●.pdf" target="_blank" rel="noopener">クリックするとPDFが立ち上がります</a></p>
+
  
 ## Profile
 - Birthday: May 3, 1991
