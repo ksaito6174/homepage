@@ -23,7 +23,26 @@
 </head>
 <body>
     <h1>ようこそ！</h1>
-    <p>これはサンプルのHTMLページです。</p>
+
+	PDFJS.getDocument('compressed.tracemonkey-pldi-09.pdf').then(function(pdf) {
+  pdf.getPage(1).then(function(page) {            // ページ番号を指定します。ここは1ページのみを指定しています。
+    var scale = 1;                                // 倍率を指定します。
+    var viewport = page.getViewport(scale);
+
+    var canvas = document.getElementById('the-canvas');
+    var context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    var renderContext = {                         // 描画条件をセットします。
+      canvasContext: context,
+      viewport: viewport
+    };
+    page.render(renderContext);                   // 描画を行います。
+  });
+});
+	
+	<p>これはサンプルのHTMLページです。</p>
     <h2>Profile</h2>
 <ul>
 <li>Birthday: May 3, 1991</li>
