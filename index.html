@@ -23,25 +23,6 @@
 </head>
 <body>
     <h1>ようこそ！</h1>
-
-	PDFJS.getDocument('compressed.tracemonkey-pldi-09.pdf').then(function(pdf) {
-  pdf.getPage(1).then(function(page) {            // ページ番号を指定します。ここは1ページのみを指定しています。
-    var scale = 1;                                // 倍率を指定します。
-    var viewport = page.getViewport(scale);
-
-    var canvas = document.getElementById('the-canvas');
-    var context = canvas.getContext('2d');
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    var renderContext = {                         // 描画条件をセットします。
-      canvasContext: context,
-      viewport: viewport
-    };
-    page.render(renderContext);                   // 描画を行います。
-  });
-});
-	
 	<p>これはサンプルのHTMLページです。</p>
     <h2>Profile</h2>
 <ul>
@@ -57,7 +38,7 @@
 <h4><a href="https://twitter.com/ksaito495">X</a></h4>
 <h4><a href="https://www.instagram.com/ksaito6174/">Instagram</a></h4>
 <h4><a href="https://m.youtube.com/@kensaito4606/featured">YouTube</a></h4>
-<h3><a href="https://www.dropbox.com/scl/fi/rli0f0yxkzy6sjxovw41n/20230510_cv_ksaito-2.pdf?rlkey=l1au6s5e4w3wahkhdntp63ik6&dl=0">PDF</a></h3>
+<h4><a href="https://www.dropbox.com/scl/fi/rli0f0yxkzy6sjxovw41n/20230510_cv_ksaito-2.pdf?rlkey=l1au6s5e4w3wahkhdntp63ik6&dl=0">PDF</a></h4>
 <hr />
 <h2>Educational Background</h2>
 <h3>University</h3>
@@ -80,7 +61,7 @@
 </ul>
 <hr />
 <h3>Publications</h3>
-<ul>
+<ol>
 <li><p>Construction for both self-dual codes and LCD codes, K. Ishizuka and K. Saito, Submitted to Advances in Mathematics of Communications, (2021)</p></li>
 <li><p>On the existence of quaternary Hermitian LCD codes with Hermitian dual distance 1, K. Ishizuka and K. Saito, <em>Discrete Math.</em> <em>345</em>, (2022), 112702 (Published: February, 2022)</p></li>
 <li><p>On the minimum weights of binary LCD codes and ternary LCD codes, M. Araya, M. Harada and K. Saito, <em>Finite Fields and Their Applications</em> <strong>76</strong>, (2021), 101925 (Published: September, 2021)</p></li>
@@ -91,7 +72,7 @@
 <li><p>Self-dual additive $F_4$-codes of lengths up to 40 represented by circulant graphs, K. Saito, <em>Advances in Mathematics of Communications</em> <strong>13</strong> (2019), 213-220 (Published: February, 2019)</p></li>
 <li><p>Singly even self-dual codes constructed from Hadamard matrices of order 28, M. Harada and K. Saito, <em>Australasian Journal of Combinatorics</em> <strong>70</strong> (2018), 288-296, (Published: December, 2017)</p></li>
 <li><p>On the classification of $\mathbb{Z_4}$-codes, M. Araya, M. Harada, H. Ito and K. Saito, <em>Advances in Mathematics of Communications</em> <strong>11</strong> (2017), 747-756 (Published: November, 2017)</p></li>
-</ul>
+</ol>
 <hr />
 <h3>Talks</h3>
 <ul>
