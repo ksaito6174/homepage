@@ -1,13 +1,3 @@
-    <iframe
-      class="slide"
-      src="projectSlidebyMD20200626.pdf"
-      width="50%"
-      height="500px"
-    ></iframe>
-
-    <iframe
-      src="projectSlidebyMD.txt"
-      width="45%"
-      height="500px"
-      class="sorce"
-    ></iframe>
+## sssss
+ddddd
+あいうえここ
